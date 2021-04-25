@@ -4,8 +4,6 @@
         "/Users/kengutierrez/Projects/processing/hymir/lib/core.jar"
     ],
     "java.project.sourcePaths": [
-        "src/template",
-        "src/sketchBook",
         "src"
     ]
 }

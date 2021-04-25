@@ -14,11 +14,13 @@ public class App extends PApplet {
         size(640, 360);
     }
 
-    Cell ca;
+    Cell ca;  // a Cell object where we are modeling a cellular automata.
+    Walker w;
 
     // Identical use to setup in Processing IDE except for size()
     public void setup() {
         ca = new Cell(this); // Avoid a NULL Exception by using keyword this. So the Object does point to something.
+        w = new Walker(this);
         background(255);
     }
 
@@ -26,6 +28,8 @@ public class App extends PApplet {
     public void draw() {
         ca.generation();
         ca.display();
+        w.step();
+        w.display();
         //saveFrame("img/output/#####.png"); // Type in Terminal the following bash gifenc.sh %05d.png anim.gif(or any file name I want).
     }
 }
