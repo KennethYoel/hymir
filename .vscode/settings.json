@@ -1,6 +1,11 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/Users/kengutierrez/Projects/temp/lib/core.jar"
+        "/Users/kengutierrez/Projects/processing/hymir/lib/core.jar"
+    ],
+    "java.project.sourcePaths": [
+        "src/template",
+        "src/sketchBook",
+        "src"
     ]
 }

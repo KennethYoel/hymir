@@ -1,4 +1,4 @@
-package cellularAutomata;
+package sketchBook;
 
 import processing.core.PApplet;
 

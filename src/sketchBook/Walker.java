@@ -1,4 +1,4 @@
-package walker;
+package sketchBook;
 
 import processing.core.PApplet;
 

@@ -1,11 +1,11 @@
-package boilerplate;
+package sketchBook;
 
 import processing.core.PApplet;
 
-public class Example {
+public class Boilerplate {
     int c, d;
 
-    Example(PApplet _p) {
+    Boilerplate(PApplet _p) {
         p = _p;
         c = 80;
         d = 80;

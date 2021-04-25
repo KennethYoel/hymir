@@ -1,4 +1,4 @@
-package cellularAutomata;
+package sketchBook;
 
 import processing.core.PApplet;
 
@@ -6,7 +6,7 @@ public class App extends PApplet {
 
     // The argument passed to main must match the class name
     public static void main(String[] args) {
-        PApplet.main("cellularAutomata.App");
+        PApplet.main("sketchBook.App");
     }
 
     // Method for setting the size of the window
@@ -26,6 +26,6 @@ public class App extends PApplet {
     public void draw() {
         ca.generation();
         ca.display();
-        saveFrame("img/output/#####.png"); // Type in Terminal the following bash gifenc.sh %05d.png anim.gif(or any file name I want).        
+        //saveFrame("img/output/#####.png"); // Type in Terminal the following bash gifenc.sh %05d.png anim.gif(or any file name I want).
     }
 }
