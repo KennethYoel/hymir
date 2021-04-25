@@ -1,10 +1,10 @@
 # Hymir
-This Frankenstein graphics framework of mine is for creating and manipulating graphics and images with the goal of creating generative art and simulations.
+This Frankenstein graphics framework of mine is for creating and manipulating graphics and images.
 The software framework I use, that does a lot of the extra (non-creatively oriented) work under the hood and leaves us to just concentrate on the fun stuff,
 is called Processing and it has all the benefits of Java with a much simpler and optimized environment for creative coding.
 Using the Processing framework, the Java applet disparate and complex operations are standardized into a uniform and simplified set of commands.
 So here is the implementation of the Processing core library with my Java project, coding in my IDE of choice instead of using Processing Sketch.
-And in time add my own custom RNG and add ffmpeg support as well. For now lets brew some simulations.
+And in time add my own custom RNG and add ffmpeg support as well. For now lets brew some generative art and simulations.
 
 ## Getting Started
 
