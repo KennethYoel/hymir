@@ -21,15 +21,16 @@ public class App extends PApplet {
     public void setup() {
         ca = new Cell(this); // Avoid a NULL Exception by using keyword this. So the Object does point to something.
         w = new Walker(this);
-        background(255);
+        background(76, 76, 73);
     }
 
     // Identical use to draw in Processing IDE
     public void draw() {
         ca.generation();
-        ca.display();
-        w.step();
-        w.display();
+        //ca.displayPixels();
+        ca.display2DPrimitives();
+        //w.step();
+        //w.display();
         //saveFrame("img/output/#####.png"); // Type in Terminal the following bash gifenc.sh %05d.png anim.gif(or any file name I want).
     }
 }
